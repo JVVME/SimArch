@@ -79,6 +79,12 @@ build CMakeFiles/SimArch.dir/memory.c.obj: C_COMPILER__SimArch_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\SimArch.dir
   OBJECT_FILE_DIR = CMakeFiles\SimArch.dir
 
+build CMakeFiles/SimArch.dir/alu.c.obj: C_COMPILER__SimArch_unscanned_Debug C$:/Users/zhang/Marco/Code/Projects/SimArch/alu.c || cmake_object_order_depends_target_SimArch
+  DEP_FILE = CMakeFiles\SimArch.dir\alu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SimArch.dir
+  OBJECT_FILE_DIR = CMakeFiles\SimArch.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SimArch
@@ -87,7 +93,7 @@ build CMakeFiles/SimArch.dir/memory.c.obj: C_COMPILER__SimArch_unscanned_Debug C
 #############################################
 # Link the executable SimArch.exe
 
-build SimArch.exe: C_EXECUTABLE_LINKER__SimArch_Debug CMakeFiles/SimArch.dir/main.c.obj CMakeFiles/SimArch.dir/cpu.c.obj CMakeFiles/SimArch.dir/pipeline.c.obj CMakeFiles/SimArch.dir/cache.c.obj CMakeFiles/SimArch.dir/memory.c.obj
+build SimArch.exe: C_EXECUTABLE_LINKER__SimArch_Debug CMakeFiles/SimArch.dir/main.c.obj CMakeFiles/SimArch.dir/cpu.c.obj CMakeFiles/SimArch.dir/pipeline.c.obj CMakeFiles/SimArch.dir/cache.c.obj CMakeFiles/SimArch.dir/memory.c.obj CMakeFiles/SimArch.dir/alu.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SimArch.dir

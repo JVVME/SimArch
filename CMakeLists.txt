@@ -13,4 +13,6 @@ add_executable(SimArch main.c
         memory.c
         memory.h
         constants.h
+        alu.c
+        alu.h
 )
